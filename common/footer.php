@@ -6,40 +6,37 @@
         <div class="col-lg-4 col-md-6 mb-5">
           <a
             href=""
-            class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
+            class="navbar-brand font-weight-bold text-primary m-0 mb-1 p-0"
             style="font-size: 40px; line-height: 40px"
           >
-            <i class="flaticon-043-teddy-bear"></i>
-            <span class="text-white">A.T.S</span>
+            <!-- <i class="flaticon-043-teddy-bear"></i> --><h3 class="text-primary mb-4"><?=$p_name?></h3>
           </a>
-          <p>
-            Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
-            dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
-            stet diam duo eos rebum ipsum diam ipsum elitr.
-          </p>
+          <p>Estd: 2024</p>
+          <p>  A bengali medium school following West Bengal Board of Primary and Secondary Education curriculum </p>
+          <p>  An ideal Bengali medium co-educational residential and non-residential educational institution </p>
           <div class="d-flex justify-content-start mt-4">
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="<?=$socials["twitter"]?>" target="_blank"
+              href="javascript: void(0);"
               ><i class="fab fa-twitter"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="<?=$socials["facebook"]?>" target="_blank"
+              href="javascript: void(0);"
               ><i class="fab fa-facebook-f"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="<?=$socials["linkedin"]?>" target="_blank"
+              href="javascript: void(0);"
               ><i class="fab fa-linkedin-in"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="<?=$socials["instagram"]?>" target="_blank"
+              href="javascript: void(0);"
               ><i class="fab fa-instagram"></i
             ></a>
           </div>
@@ -58,7 +55,7 @@
             <h4 class="fa fa-envelope text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Email</h5>
-              <p>info@atspublicschool.com</p>
+              <p>info@atspschool.in</p>
             </div>
           </div>
           <div class="d-flex">
@@ -77,19 +74,19 @@
               ><i class="fa fa-angle-right mr-2"></i>Home</a
             >
             <a class="text-white mb-2" href="?p=about"
-              ><i class="fa fa-angle-right mr-2"></i>About Us</a
+              ><i class="fa fa-angle-right mr-2"></i>Academics</a
             >
             <a class="text-white mb-2" href="?p=classes"
-              ><i class="fa fa-angle-right mr-2"></i>Our Classes</a
+              ><i class="fa fa-angle-right mr-2"></i>Admission</a
             >
-            <a class="text-white mb-2" href="?p=teachers"
-              ><i class="fa fa-angle-right mr-2"></i>Our Teachers</a
+            <a class="text-white mb-2" href="?p=about"
+              ><i class="fa fa-angle-right mr-2"></i>Notice Board</a
             >
             <a class="text-white mb-2" href="?p=gallery"
               ><i class="fa fa-angle-right mr-2"></i>Gallery</a
             >
-            <a class="text-white" href="?p=contact_us"
-              ><i class="fa fa-angle-right mr-2"></i>Contact Us</a
+            <a class="text-white mb-2" href="?p=teachers"
+              ><i class="fa fa-angle-right mr-2"></i>Job/Vacancy</a
             >
           </div>
         </div>
@@ -138,7 +135,7 @@
             >HTML Codex</a
           > -->
           <br />Designed By:
-          <a href="javascript: void(0);" target="_blank">Rajib Dum</a>
+          <a href="javascript: void(0);">Pixxle Solutions</a>
         </p>
       </div>
     </div>

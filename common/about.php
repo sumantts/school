@@ -5,7 +5,7 @@
           <div class="col-lg-5">
             <img
               class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/about-1.jpg"
+              src="img/about.png"
               alt=""
             />
           </div>
