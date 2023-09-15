@@ -7,10 +7,10 @@
         <a
           href="?p=home"
           class="navbar-brand font-weight-bold text-secondary"
-          style="font-size: 50px"
+          style="font-size: 30px"
         >
           <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">KidKinder</span>
+          <span class="text-primary"><?=$p_name?></span>
         </a>
         <button
           type="button"

@@ -1,5 +1,5 @@
 <?php 
-  //include 'studio/assets/php/sql_conn.php';
+  include 'office/assets/php/sql_conn.php';
 
   $title = 'Home';
 	if(isset($_GET["p"])){

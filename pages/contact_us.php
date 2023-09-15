@@ -88,7 +88,7 @@
               ></i>
               <div class="pl-3">
                 <h5>Address</h5>
-                <p>123 Street, New York, USA</p>
+                <p>Roypur(S); P.O: Jalalpur; P.S: Kaliyachak<br> Dist: Malda; Pin: 732206</p>
               </div>
             </div>
             <div class="d-flex">
@@ -98,7 +98,7 @@
               ></i>
               <div class="pl-3">
                 <h5>Email</h5>
-                <p>info@example.com</p>
+                <p>info@atspublicschool.com</p>
               </div>
             </div>
             <div class="d-flex">
@@ -108,7 +108,7 @@
               ></i>
               <div class="pl-3">
                 <h5>Phone</h5>
-                <p>+012 345 67890</p>
+                <p><a href="tel:+917063372992">+91 70633 72992</a> / <a href="tel:+917063535030">+91 70635 35030</a> / <a href="tel:+918348016997">+91 83480 16997</a></p>
               </div>
             </div>
             <div class="d-flex">
@@ -118,7 +118,7 @@
               ></i>
               <div class="pl-3">
                 <h5>Opening Hours</h5>
-                <strong>Sunday - Friday:</strong>
+                <strong>Monday - Friday:</strong>
                 <p class="m-0">08:00 AM - 05:00 PM</p>
               </div>
             </div>

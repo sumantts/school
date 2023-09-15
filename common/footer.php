@@ -3,14 +3,14 @@
       class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
     >
       <div class="row pt-5">
-        <div class="col-lg-3 col-md-6 mb-5">
+        <div class="col-lg-4 col-md-6 mb-5">
           <a
             href=""
             class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
             style="font-size: 40px; line-height: 40px"
           >
             <i class="flaticon-043-teddy-bear"></i>
-            <span class="text-white">KidKinder</span>
+            <span class="text-white">A.T.S</span>
           </a>
           <p>
             Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
@@ -21,54 +21,56 @@
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="#"
+              href="<?=$socials["twitter"]?>" target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="#"
+              href="<?=$socials["facebook"]?>" target="_blank"
               ><i class="fab fa-facebook-f"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="#"
+              href="<?=$socials["linkedin"]?>" target="_blank"
               ><i class="fab fa-linkedin-in"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
               style="width: 38px; height: 38px"
-              href="#"
+              href="<?=$socials["instagram"]?>" target="_blank"
               ><i class="fab fa-instagram"></i
             ></a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+
+        <div class="col-lg-4 col-md-6 mb-5">
           <h3 class="text-primary mb-4">Get In Touch</h3>
           <div class="d-flex">
             <h4 class="fa fa-map-marker-alt text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Address</h5>
-              <p>123 Street, New York, USA</p>
+              <p>Roypur(S); P.O: Jalalpur; P.S: Kaliyachak<br> Dist: Malda; Pin: 732206</p>
             </div>
           </div>
           <div class="d-flex">
             <h4 class="fa fa-envelope text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Email</h5>
-              <p>info@example.com</p>
+              <p>info@atspublicschool.com</p>
             </div>
           </div>
           <div class="d-flex">
             <h4 class="fa fa-phone-alt text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Phone</h5>
-              <p>+012 345 67890</p>
+              <p><a href="tel:+917063372992">+91 70633 72992</a> / <a href="tel:+917063535030">+91 70635 35030</a> / <a href="tel:+918348016997">+91 83480 16997</a></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+
+        <div class="col-lg-4 col-md-6 mb-5">
           <h3 class="text-primary mb-4">Quick Links</h3>
           <div class="d-flex flex-column justify-content-start">
             <a class="text-white mb-2" href="?p=home"
@@ -91,7 +93,7 @@
             >
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+        <!-- <div class="col-lg-3 col-md-6 mb-5">
           <h3 class="text-primary mb-4">Newsletter</h3>
           <form action="">
             <div class="form-group">
@@ -119,7 +121,7 @@
               </button>
             </div>
           </form>
-        </div>
+        </div> -->
       </div>
       <div
         class="container-fluid pt-5"
@@ -127,16 +129,16 @@
       >
         <p class="m-0 text-center text-white">
           &copy;
-          <a class="text-primary font-weight-bold" href="#">Your Site Name</a>.
+          <!-- <a class="text-primary font-weight-bold" href="#">Your Site Name</a>. -->
           All Rights Reserved.
 
           <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-          Designed by
+          <!-- Designed by
           <a class="text-primary font-weight-bold" href="https://htmlcodex.com"
             >HTML Codex</a
-          >
-          <br />Distributed By:
-          <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          > -->
+          <br />Designed By:
+          <a href="javascript: void(0);" target="_blank">Rajib Dum</a>
         </p>
       </div>
     </div>
