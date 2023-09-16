@@ -30,45 +30,45 @@
 		break;
 
 		//SETUP		
-		case 'home_page':
-			$title = "Home Page";
-			include('setup/home_page/home_page.php');		
-		break;
+		// case 'home_page':
+		// 	$title = "Home Page";
+		// 	include('setup/home_page/home_page.php');		
+		// break;
 
-		case 'category_manager':
-			$title = "Category Manager";
-			include('setup/category_manager/category_manager.php');		
-		break;
+		// case 'category_manager':
+		// 	$title = "Category Manager";
+		// 	include('setup/category_manager/category_manager.php');		
+		// break;
 
-		case 'portfolio':
-			$title = "Portfolio Management";
-			include('setup/portfolio/portfolio.php');		
-		break;	
+		// case 'portfolio':
+		// 	$title = "Portfolio Management";
+		// 	include('setup/portfolio/portfolio.php');		
+		// break;	
 
 		case 'gallery':
 			$title = "Gallery Management";
 			include('setup/gallery/gallery.php');		
 		break;	
 
-		case 'authors':
-			$title = "Authors Profile";
-			include('setup/authors/authors.php');		
+		// case 'authors':
+		// 	$title = "Authors Profile";
+		// 	include('setup/authors/authors.php');		
+		// break;
+
+		case 'notice':
+			$title = "Notice Board";
+			include('setup/notice/notice.php');		
 		break;
 
-		case 'post':
-			$title = "Create a Post";
-			include('setup/post/post.php');		
+		case 'add_edit_notice':
+			$title = "Create/Update a Notice Board";
+			include('setup/notice/add_edit_notice.php');		
 		break;
 
-		case 'add_edit_post':
-			$title = "Create/Update a Post";
-			include('setup/post/add_edit_post.php');		
-		break;
-
-		case 'comment_manager':
-			$title = "Comment Manager";
-			include('setup/comment_manager/comment_manager.php');		
-		break;
+		// case 'comment_manager':
+		// 	$title = "Comment Manager";
+		// 	include('setup/comment_manager/comment_manager.php');		
+		// break;
 						
 		default:
 		include('signin/signin.php');

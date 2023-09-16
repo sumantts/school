@@ -11,9 +11,11 @@
           >
             <!-- <i class="flaticon-043-teddy-bear"></i> --><h3 class="text-primary mb-4"><?=$p_name?></h3>
           </a>
-          <p>Estd: 2024</p>
-          <p>  A bengali medium school following West Bengal Board of Primary and Secondary Education curriculum </p>
-          <p>  An ideal Bengali medium co-educational residential and non-residential educational institution </p>
+          <p>স্থাপিত : ২০২৪</p>
+          <!-- <p>  A bengali medium school following West Bengal Board of Primary and Secondary Education curriculum </p> -->
+          <p>পশ্চিমবঙ্গ প্রাথমিক ও মধ্যশিক্ষা পর্ষদের পাঠক্রম অনুসৃত বাংলা মাধ্যম বিদ্যালয় </p>
+          <!-- <p>  An ideal Bengali medium co-educational residential and non-residential educational institution </p> -->
+          <p>একটি আদর্শ বাংলা মাধ্যম কো-এডুকেশনাল আবাসিক ও অনাবাসিক শিক্ষা প্রতিষ্ঠান </p>
           <div class="d-flex justify-content-start mt-4">
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
@@ -48,7 +50,8 @@
             <h4 class="fa fa-map-marker-alt text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Address</h5>
-              <p>Roypur(S); P.O: Jalalpur; P.S: Kaliyachak<br> Dist: Malda; Pin: 732206</p>
+              <!-- <p>Roypur(S); P.O: Jalalpur; P.S: Kaliyachak<br> Dist: Malda; Pin: 732206</p> -->
+              <p>সাং -উত্তর রায়পুর (ধুলাউড়ি ), পোঃ -জালালপুর , থানা -কালিয়াচক ,জেলা -মালদা , পিন -৭৩২২০৬</p>
             </div>
           </div>
           <div class="d-flex">
@@ -79,7 +82,7 @@
             <a class="text-white mb-2" href="?p=classes"
               ><i class="fa fa-angle-right mr-2"></i>Admission</a
             >
-            <a class="text-white mb-2" href="?p=about"
+            <a class="text-white mb-2" href="?p=notice"
               ><i class="fa fa-angle-right mr-2"></i>Notice Board</a
             >
             <a class="text-white mb-2" href="?p=gallery"

@@ -84,47 +84,22 @@
 		$status = true;
 		$mainData = array();
 		$author_bio1 = '';
-		$sql = "SELECT category_list.category_id, category_list.category_name, category_list.category_slug, author_details.author_id, author_details.author_name, post_manager.post_id, post_manager.post_title, post_manager.post_description, post_manager.post_image, post_manager.post_video, post_manager.post_tags, post_manager.activity_status, post_manager.created_on FROM post_manager JOIN category_list ON category_list.category_id = post_manager.category_id JOIN author_details ON author_details.author_id = post_manager.author_id";
+		$sql = "SELECT * FROM post_manager ORDER BY post_id DESC LIMIT 0, 50";
 		$result = $mysqli->query($sql);
 
 		if ($result->num_rows > 0) {
 			$status = true;
 			$slno = 1;
 			while($row = $result->fetch_array()){
-				$post_id = $row['post_id'];			
-				$category_name = $row['category_name'];		
-				$author_name = $row['author_name'];		
+				$post_id = $row['post_id'];	
 				$post_title = $row['post_title'];		
-				$post_description = $row['post_description'];	
-				$post_image = $row['post_image'];	
-				$post_video = $row['post_video'];		
-				$post_tags = $row['post_tags'];		
-				$created_on = $row['created_on'];		
-				$activity_status = $row['activity_status'];		
-				$author_name = $row['author_name'];		
-
-				if(strpos($post_description, "A") == true){
-					$post_description1 = substr($post_description, 0, 100) . '...'; //English 100 //Bengali 300
-				}else{
-					$post_description2 = substr($post_description, 0, 300); //English 100 //Bengali 300
-					$post_description1 = substr($post_description2, 0, -2) . '...';
-				}
-
+				$post_description = $row['post_description'];
+				$created_on = $row['created_on'];
 
 				$data[0] = $slno;
-				$data[1] = $category_name;
-				$data[2] = $author_name;
-				$data[3] = $post_title;
-				$data[4] = "<img src='".$post_image."' id='saved_image' width='100' >";
-				if($post_video != ''){
-					$l = 'https://www.youtube.com/watch?v='.$post_video;
-				$data[5] = "<a href='".$l."' target='_blank'>Watch on YouTube</a>"; //$post_video;
-				}else{
-					$data[5] = "";
-				}
-				$data[6] = date('d-M-Y', strtotime($created_on));
-				$data[7] =  ucfirst($activity_status);
-				$data[8] = "<a href='?p=add_edit_post&gr=setup&pi=".$post_id."' data-center_id='1'><i class='fa fa-edit' aria-hidden='true' onclick='editTableData(".$post_id.")'></i></a><a href='javascript: void(0)' data-center_id='1'> <i class='fa fa-trash' aria-hidden='true' onclick='deleteTableData(".$post_id.")'></i></a>";
+				$data[1] = $post_title;
+				$data[2] = date('d-M-Y', strtotime($created_on));
+				$data[3] = "<a href='?p=add_edit_notice&gr=setup&pi=".$post_id."' data-center_id='1'><i class='fa fa-edit' aria-hidden='true' onclick='editTableData(".$post_id.")'></i></a><a href='javascript: void(0)' data-center_id='1'> <i class='fa fa-trash' aria-hidden='true' onclick='deleteTableData(".$post_id.")'></i></a>";
 
 				array_push($mainData, $data);
 				$slno++;

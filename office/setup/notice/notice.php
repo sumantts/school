@@ -61,7 +61,7 @@ if(!$_SESSION["login_id"]){
                         <h5> <?=$title?> </h5>
                         <div class="card-header-right">
                             <div class="btn-group card-option">
-                            <a href="?p=add_edit_post&gr=setup&pi=0" class="btn btn-primary mb-2 float-right" >Create New</a>
+                            <a href="?p=add_edit_notice&gr=setup&pi=0" class="btn btn-primary mb-2 float-right" >Create New</a>
                             </div>
                         </div>
                     </div>
@@ -81,26 +81,16 @@ if(!$_SESSION["login_id"]){
                                 <thead>
                                     <tr>
                                         <th>Sl.No.</th>
-                                        <th>Category</th>
-                                        <th>Author</th>
                                         <th>Title</th>
-                                        <th>Image</th>
-                                        <th>Video</th>
                                         <th>Created On</th>
-                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tfoot>
                                     <tr>
                                         <th>Sl.No.</th>
-                                        <th>Category</th>
-                                        <th>Author</th>
                                         <th>Title</th>
-                                        <th>Image</th>
-                                        <th>Video</th>
                                         <th>Created On</th>
-                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </tfoot>
@@ -239,4 +229,4 @@ if(!$_SESSION["login_id"]){
 <!-- [ Main Content ] end -->
 	<?php include('common/footer.php'); ?>
     
-    <script src="setup/post/function.js"></script>
+    <script src="setup/notice/function.js"></script>

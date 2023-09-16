@@ -63,39 +63,22 @@ if(!$_SESSION["login_id"]){
         $post_id = $_GET['pi'];
 
         if($post_id > 0){
-            $sql = "SELECT category_list.category_id, category_list.category_name, category_list.category_slug, author_details.author_id, author_details.author_name, post_manager.post_id, post_manager.post_title, post_manager.post_description, post_manager.post_image, post_manager.post_video, post_manager.post_tags, post_manager.activity_status, post_manager.created_on FROM post_manager JOIN category_list ON category_list.category_id = post_manager.category_id JOIN author_details ON author_details.author_id = post_manager.author_id WHERE post_manager.post_id = '" .$post_id. "'";
+            $sql = "SELECT * FROM post_manager WHERE post_id = '" .$post_id. "'";
             $result = $mysqli->query($sql);
 
             if ($result->num_rows > 0) {
                 $status = true;	
                 $row = $result->fetch_array();
-                $post_id = $row['post_id'];			
-                $category_id = $row['category_id'];		
-                $author_id = $row['author_id'];
-                $activity_status = $row['activity_status'];	
+                $post_id = $row['post_id'];	
                 $post_title = $row['post_title'];	
                 $post_description = $row['post_description'];	
-                $post_tags = $row['post_tags'];	
-                $post_video = $row['post_video'];	
-
-                if($row['post_image'] != ''){
-                    $post_image = $row['post_image'];	
-                }else{
-                    $post_image = '';
-                }
             } else {
                 $status = false;
             }
         }else{
             $post_id = 0;
-            $category_id = 0;
-            $author_id = 0;
-            $activity_status = 1;
             $post_title = '';
             $post_description = '';
-            $post_tags = '';
-            $post_image = '';
-            $post_video = '';
         }
     }//end if
 
@@ -103,29 +86,23 @@ if(!$_SESSION["login_id"]){
     if(isset($_POST["submitForm"]))
     {
         $post_id = $_POST["post_id"];
-        $category_id = $_POST["category_id"];
-        $author_id = $_POST["author_id"];
         $post_title = $_POST["post_title"];
         $post_description = mysqli_real_escape_string($mysqli, $_POST["post_description"]);	
-        $post_image = $_POST["post_image_data"];
-        $post_video = $_POST["post_video"];
-        $post_tags = $_POST["post_tags"];
-        $activity_status = $_POST["activity_status"];
 
         if($post_id > 0){
             $status = true;
-            $sql = "UPDATE post_manager SET category_id = '" .$category_id. "', author_id = '" .$author_id. "', post_title = '" .$post_title. "', post_description = '" .$post_description. "', post_image = '" .$post_image. "', post_video = '" .$post_video. "', post_tags = '" .$post_tags. "', activity_status = '" .$activity_status. "' WHERE post_id = '" .$post_id. "' ";
+            $sql = "UPDATE post_manager SET post_title = '" .$post_title. "', post_description = '" .$post_description. "' WHERE post_id = '" .$post_id. "' ";
             $result = $mysqli->query($sql);
-            header("location:?p=add_edit_post&gr=setup&pi=$post_id");
+            header("location:?p=add_edit_notice&gr=setup&pi=$post_id");
 
         }else{
-            $sql = "INSERT INTO post_manager (`category_id`, `author_id`, `post_title`, `post_description`, `post_image`, `post_video`, `post_tags`, `activity_status`) VALUES ('" .$category_id. "', '" .$author_id. "', '" .$post_title. "', '" .$post_description. "', '" .$post_image. "', '" .$post_video. "', '" .$post_tags. "', '" .$activity_status. "')";
+            $sql = "INSERT INTO post_manager (`post_title`, `post_description`) VALUES ('" .$post_title. "', '" .$post_description. "')";
 
             $result = $mysqli->query($sql);
             $insert_id = $mysqli->insert_id;
             if($insert_id > 0){
                 $status = true;
-                header("location:?p=add_edit_post&gr=setup&pi=$insert_id");
+                header("location:?p=add_edit_notice&gr=setup&pi=$insert_id");
             }else{
                 $return_result['error_message'] = 'Photo size is soo large';
                 $status = false;
@@ -207,18 +184,18 @@ if(!$_SESSION["login_id"]){
 
                         <form class="needs-validation" name="myForm" id="myForm" action="" method="post">
                             <div class="form-row">                                    
-                                <div class="col-md-4 mb-3">
+                                <!-- <div class="col-md-4 mb-3">
                                     <label for="category_id">Category*</label>
                                     <select class="form-control" name="category_id" id="category_id">
                                         <option value="0">Select</option>
                                         <?php
-                                        if(sizeof($categories) > 0){
+                                        /*if(sizeof($categories) > 0){
                                             for($i = 0; $i < sizeof($categories); $i++){
                                                 ?>
                                                 <option value="<?=$categories[$i]->category_id?>" data-category_slug="<?=$categories[$i]->category_slug?>" <?php if($category_id == $categories[$i]->category_id){?> selected="selected" <?php } ?>><?=$categories[$i]->category_name?></option>
                                                 <?php
                                             }
-                                        }
+                                        }*/
                                         ?>
                                     </select>
                                     <div class="valid-feedback">
@@ -234,13 +211,13 @@ if(!$_SESSION["login_id"]){
                                     <select class="form-control" name="author_id" id="author_id">
                                         <option value="0">Select</option>
                                         <?php
-                                        if(sizeof($authors) > 0){
+                                        /*if(sizeof($authors) > 0){
                                             for($i = 0; $i < sizeof($authors); $i++){
                                                 ?>
                                                 <option value="<?=$authors[$i]->author_id?>" <?php if($author_id == $authors[$i]->author_id){?> selected="selected" <?php } ?>><?=$authors[$i]->author_name?></option>
                                                 <?php
                                             }
-                                        }
+                                        }*/
                                         ?>
                                     </select>
                                     <div class="valid-feedback">
@@ -254,8 +231,8 @@ if(!$_SESSION["login_id"]){
                                 <div class="col-md-4 mb-3">
                                     <label for="activity_status">Activity Status*</label>
                                     <select class="form-control" name="activity_status" id="activity_status">
-                                        <option value="active" <?php if($activity_status == 'active'){?> selected="selected" <?php } ?>>Active</option>
-                                        <option value="inactive" <?php if($activity_status == 'inactive'){?> selected="selected" <?php } ?>>Inactive</option>
+                                        <option value="active" <?php //if($activity_status == 'active'){?> selected="selected" <?php //} ?>>Active</option>
+                                        <option value="inactive" <?php //if($activity_status == 'inactive'){?> selected="selected" <?php //} ?>>Inactive</option>
                                     </select>
                                     <div class="valid-feedback">
                                         Looks good!
@@ -263,7 +240,7 @@ if(!$_SESSION["login_id"]){
                                     <div class="invalid-feedback">
                                         Please Select Activity Status.
                                     </div>
-                                </div> 
+                                </div>  -->
                             </div> 
                         
                             <div class="form-row">  
@@ -290,9 +267,8 @@ if(!$_SESSION["login_id"]){
                                     </div>
                                 </div> 
 
-                                <div class="col-md-12 mb-3">
+                                <!-- <div class="col-md-12 mb-3">
                                     <label for="post_tags">Tags*</label>
-                                    <!-- <input type="text" class="form-control" id="author_bio" placeholder="Group Description" value="" required> -->
                                     <textarea class="form-control" id="post_tags" name="post_tags" ><?=$post_tags?></textarea>
                                     <div class="valid-feedback">
                                         Looks good!
@@ -300,24 +276,7 @@ if(!$_SESSION["login_id"]){
                                     <div class="invalid-feedback">
                                         Please provide Biography.
                                     </div>
-                                </div> 
-                            </div> 
-                        
-                            <div class="form-row">                                     
-                                <div class="col-md-6 mb-2 mt-4">
-                                    <input type="file" accept="image/*" class="custom-file-input" id="post_image" aria-describedby="post_image"  onchange="savePhoto()">
-                                    <label class="custom-file-label" for="validatedCustomFile">Choose image...</label>
-                                    <small id="post_imageError" class="form-text text-danger"> </small>
-                                    <img src="<?=$post_image?>" id="image" width="200">
-                                    <textarea name="post_image_data" id="post_image_data" style="display: none;"><?=$post_image?></textarea>
-                                </div> 
-
-                                <div class="col-md-6 mb-2 mt-4">
-                                    <!-- <label for="post_title">Youtube Video Link</label> -->
-                                    <input type="text" class="form-control" id="post_video" name="post_video" value="<?=$post_video?>" placeholder="Youtube Embeded Link" >
-                                    <a href="<?=$post_video?>" target="_blank" id="post_video_link" style="display: none">Watch on YouTube</a>
-                                    <span><s>https://www.youtube.com/watch?v=</s><strong>_aJI36GtHi4</strong></span>
-                                </div>  
+                                </div>  -->
                             </div> 
                             <input type="hidden" id="post_id" name="post_id" value="<?=$post_id?>">
                             

@@ -11,7 +11,8 @@
                 class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"
               ></i>
               <div class="pl-4">
-                <h4>Smart Class Room</h4>
+                <!-- <h4>Smart Class Room</h4> -->
+                <h4>স্মার্ট ক্লাস রুম</h4>
                 <p class="m-0"> an EdTech-upgraded classroom that enhances the teaching and learning process...</p>
               </div>
             </div>
@@ -25,7 +26,8 @@
                 class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"
               ></i>
               <div class="pl-4">
-                <h4>CCTV Surveillance</h4>
+                <!-- <h4>CCTV Surveillance</h4> -->
+                <h4>সিসিটিভি দ্বারা ২৪ঘন্টা নজরদারি</h4>
                 <p class="m-0">“closed-circuit television” and is commonly known as a video surveillance technology....</p>
               </div>
             </div>
@@ -51,7 +53,7 @@
             >
             <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
               <div class="pl-4">
-                <h4>Computer Education</h4>
+                <h4>Computer প্রশিক্ষণ</h4>
                 <p class="m-0">Gaining basic knowledge and skills to operate computers in order to perform desired jobs...</p>
               </div>
             </div>
@@ -63,7 +65,8 @@
             >
             <i class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3" ></i>
               <div class="pl-4">
-                <h4>Bus Service</h4>
+                <!-- <h4>Bus Service</h4> -->
+                <h4>স্কুল বাসের ব্যবস্থা</h4>
                 <p class="m-0"> The buses have their fixed routes and will not go into narrow roads...</p>
               </div>
             </div>
@@ -77,7 +80,8 @@
                 class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"
               ></i>
               <div class="pl-4">
-                <h4>Professional Teachers</h4>
+                <!-- <h4>Professional Teachers</h4> -->
+                <h4>অভিজ্ঞ শিক্ষক শিক্ষিকা মন্ডলী</h4>
                 <p class="m-0">Faculty having professional knowledge in teaching and be able to use them in learning...</p>
               </div>
             </div>

@@ -27,27 +27,27 @@
 					<li class="nav-item pcoded-menu-caption" id="setup">
 						<label>SETUP</label>
 					</li>
-					<li class="nav-item <?php if($p == 'home_page'){ ?> active <?php } ?>">
+					<!-- <li class="nav-item <?php if($p == 'home_page'){ ?> active <?php } ?>">
 					    <a href="?p=home_page&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Home Page</span></a>
 					</li>
 					<li class="nav-item <?php if($p == 'portfolio'){ ?> active <?php } ?>">
 					    <a href="?p=portfolio&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Portfolio Management</span></a>
-					</li>
+					</li> -->
 					<li class="nav-item <?php if($p == 'gallery'){ ?> active <?php } ?>">
 					    <a href="?p=gallery&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Gallery Management</span></a>
 					</li>
-					<li class="nav-item <?php if($p == 'category_manager'){ ?> active <?php } ?>">
+					<!-- <li class="nav-item <?php if($p == 'category_manager'){ ?> active <?php } ?>">
 					    <a href="?p=category_manager&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Category Manager</span></a>
 					</li>
 					<li class="nav-item <?php if($p == 'authors'){ ?> active <?php } ?>">
 					    <a href="?p=authors&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Authors Profile</span></a>
+					</li> -->
+					<li class="nav-item <?php if($p == 'notice' || $p == 'add_edit_notice'){ ?> active <?php } ?>">
+					    <a href="?p=notice&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Notice Board</span></a>
 					</li>
-					<li class="nav-item <?php if($p == 'post' || $p == 'add_edit_post'){ ?> active <?php } ?>">
-					    <a href="?p=post&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Create a Post</span></a>
-					</li>
-					<li class="nav-item <?php if($p == 'comment_manager'){ ?> active <?php } ?>">
+					<!-- <li class="nav-item <?php if($p == 'comment_manager'){ ?> active <?php } ?>">
 					    <a href="?p=comment_manager&gr=setup" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Comment Manager</span></a>
-					</li>
+					</li> -->
 
 					<!-- <li class="nav-item pcoded-hasmenu <?php if($p == 'deposit' || $p == 'loan'){ ?> active pcoded-trigger <?php } ?>">
 					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Product</span></a>

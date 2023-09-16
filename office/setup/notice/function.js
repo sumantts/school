@@ -110,7 +110,7 @@ function editTableData($post_id){
 
     $.ajax({
         method: "POST",
-        url: "setup/post/function.php",
+        url: "setup/notice/function.php",
         data: { fn: "getFormEditData", post_id: $post_id }
     })
     .done(function( res ) {
@@ -145,7 +145,7 @@ function deleteTableData($post_id){
     if (confirm('Are you sure to delete the data?')) {
         $.ajax({
             method: "POST",
-            url: "setup/post/function.php",
+            url: "setup/notice/function.php",
             data: { fn: "deleteTableData", post_id: $post_id }
         })
         .done(function( res ) {
@@ -187,10 +187,10 @@ function populateDataTable(){
     $('#example').dataTable().fnDestroy();
 
     $('#example').DataTable({ 
-        columnDefs: [{ width: 300, targets: 3 }, { width: 100, targets: 5 }],
+        columnDefs: [{ width: 200, targets: 2 }, { width: 200, targets: 3 }],
         responsive: true,
         serverMethod: 'GET',
-        ajax: {'url': 'setup/post/function.php?fn=getTableData' },
+        ajax: {'url': 'setup/notice/function.php?fn=getTableData' },
         dom: 'Bfrtip',
         buttons: [
             {
@@ -227,7 +227,7 @@ function populateDataTable(){
 function configureCategoryDropDown(){
     $.ajax({
         method: "POST",
-        url: "setup/post/function.php",
+        url: "setup/notice/function.php",
         data: { fn: "getAllCategoryName" }
     })
     .done(function( res ) {
@@ -253,7 +253,7 @@ function configureCategoryDropDown(){
 function configureAuthorDropDown(){
     $.ajax({
         method: "POST",
-        url: "setup/post/function.php",
+        url: "setup/notice/function.php",
         data: { fn: "getAllAuthorsyName" }
     })
     .done(function( res ) {

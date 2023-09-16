@@ -49,6 +49,11 @@
     $title = "Contact Us";
     include('pages/contact_us.php');
     break;
+  
+    case 'notice':
+    $title = "Notice Board";
+    include('pages/notice.php');
+    break;
     
     default:
     include('pages/home.php');
