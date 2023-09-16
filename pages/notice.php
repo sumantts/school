@@ -22,7 +22,11 @@
                 for($i = 0; $i < sizeof($popu_posts); $i++){    
             ?>    
             <h1 class="mb-4"><?=$i+1?>. <?=$popu_posts[$i]->post_title?></h1>
-            <p><?=$popu_posts[$i]->post_description?></p>   
+            <h5 > Published: <?=date('jS. F, Y', strtotime($popu_posts[$i]->created_on))?></h5>
+            <p><?=$popu_posts[$i]->post_description?></p> 
+
+            
+
             <?php }
             } else{ ?>   
                 <h1 class="mb-4">No Notice Available</h1>            
@@ -32,11 +36,3 @@
       </div>
     </div>
     <!-- Notice End -->
-
-    <!-- Facilities Start -->
-    <?php include('common/facilities.php'); ?>
-    <!-- Facilities Start -->
-    
-    <!-- Team Start -->
-    <?php include('common/team.php'); ?>
-    <!-- Team End -->
