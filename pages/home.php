@@ -11,7 +11,7 @@
     <!-- About End -->
 
     <!-- Class Start -->
-    <?php include('common/popular_class.php'); ?>
+    <?php //include('common/popular_class.php'); ?>
     <!-- Class End -->
 
     <!-- Registration Start -->
@@ -19,13 +19,13 @@
     <!-- Registration End -->
 
     <!-- Team Start -->
-    <?php include('common/team.php'); ?>
+    <?php //include('common/team.php'); ?>
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <?php include('common/testimonial.php'); ?>
+    <?php //include('common/testimonial.php'); ?>
     <!-- Testimonial End -->
 
     <!-- Blog Start -->
-    <?php include('common/blog.php'); ?>
+    <?php //include('common/blog.php'); ?>
     <!-- Blog End -->

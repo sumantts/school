@@ -6,25 +6,22 @@
             <p class="section-title pr-5">
               <span class="pr-2">Book A Seat</span>
             </p>
-            <h1 class="mb-4">Book A Seat For Your Kid</h1>
-            <p>
+            <h2 class="mb-4">আপনার সন্তানের জন্য একটি আসন সংরিক্ষত করুন। </h2>
+            <!-- <p>
               Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
               dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo.
               Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
               dolor
-            </p>
+            </p> -->
             <ul class="list-inline m-0">
               <li class="py-2">
-                <i class="fa fa-check text-success mr-3"></i>Labore eos amet
-                dolor amet diam
+                <i class="fa fa-check text-success mr-3"></i>প্লে গ্রুপ শ্রেণীতে ভর্তির জন্য একটি শিশুর বয়স কমপক্ষে ২+ বছর হতে হবে
               </li>
               <li class="py-2">
-                <i class="fa fa-check text-success mr-3"></i>Etsea et sit dolor
-                amet ipsum
+                <i class="fa fa-check text-success mr-3"></i>কেজি শ্রেণীতে ভর্তির জন্য একটি শিশুর বয়স 4 বছর হতে হবে
               </li>
               <li class="py-2">
-                <i class="fa fa-check text-success mr-3"></i>Diam dolor diam
-                elitripsum vero.
+                <i class="fa fa-check text-success mr-3"></i>১ম শ্রেণীতে ভর্তির জন্য শিশুর বয়স ৬ বছর হতে হবে
               </li>
             </ul>
             <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a>
@@ -58,9 +55,10 @@
                       style="height: 47px"
                     >
                       <option selected>Select A Class</option>
-                      <option value="1">Class 1</option>
-                      <option value="2">Class 1</option>
-                      <option value="3">Class 1</option>
+                      <option value="1">Play Group</option>
+                      <option value="2">Lower kg</option>
+                      <option value="3">Upper Kg</option>
+                      <option value="4">Class 1</option>
                     </select>
                   </div>
                   <div>

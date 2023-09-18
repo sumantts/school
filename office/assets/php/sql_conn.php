@@ -6,9 +6,9 @@
 		$dbname = 'ats_public_school';
 	}else{	
 		$host = 'localhost';
-		$username = 'ats_public_school';
-		$password = 'ats_public_school123!@#';
-		$dbname = 'ats_public_school';
+		$username = 'pioneers_mychember';
+		$password = 'mychember123';
+		$dbname = 'pioneers_ats_public_school';
 	}
 	$mysqli = new mysqli($host, $username, $password, $dbname);
 
