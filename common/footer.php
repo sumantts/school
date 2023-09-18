@@ -11,7 +11,7 @@
           >
             <!-- <i class="flaticon-043-teddy-bear"></i> --><h3 class="text-primary mb-4"><?=$p_name?></h3>
           </a>
-          <p>স্থাপিত : ২০২৪</p>
+          <p>স্থাপিত: ২০২৩</p>
           <!-- <p>  A bengali medium school following West Bengal Board of Primary and Secondary Education curriculum </p> -->
           <p>পশ্চিমবঙ্গ প্রাথমিক ও মধ্যশিক্ষা পর্ষদের পাঠক্রম অনুসৃত বাংলা মাধ্যম বিদ্যালয় </p>
           <!-- <p>  An ideal Bengali medium co-educational residential and non-residential educational institution </p> -->
