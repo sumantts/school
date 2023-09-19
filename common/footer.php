@@ -51,7 +51,7 @@
             <div class="pl-3">
               <h5 class="text-white">Address</h5>
               <!-- <p>Roypur(S); P.O: Jalalpur; P.S: Kaliyachak<br> Dist: Malda; Pin: 732206</p> -->
-              <p>সাং -উত্তর রায়পুর (ধুলাউড়ি ), পোঃ -জালালপুর , থানা -কালিয়াচক ,জেলা -মালদা , পিন -৭৩২২০৬</p>
+              <p>উত্তর রায়পুর (ধুলাউড়ি), পোঃ-বালুয়াচরা, <br>অঞ্চলঃ-জালালপুর, থানা-কালিয়াচক,<br>জেলা-মালদা, পিন-৭৩২২০৬</p>
             </div>
           </div>
           <div class="d-flex">
@@ -76,10 +76,10 @@
             <a class="text-white mb-2" href="?p=home"
               ><i class="fa fa-angle-right mr-2"></i>Home</a
             >
-            <a class="text-white mb-2" href="?p=about"
+            <a class="text-white mb-2" href="?p=academics"
               ><i class="fa fa-angle-right mr-2"></i>Academics</a
             >
-            <a class="text-white mb-2" href="?p=classes"
+            <a class="text-white mb-2" href="?p=admission"
               ><i class="fa fa-angle-right mr-2"></i>Admission</a
             >
             <a class="text-white mb-2" href="?p=notice"
@@ -88,8 +88,8 @@
             <a class="text-white mb-2" href="?p=gallery"
               ><i class="fa fa-angle-right mr-2"></i>Gallery</a
             >
-            <a class="text-white mb-2" href="?p=teachers"
-              ><i class="fa fa-angle-right mr-2"></i>Job/Vacancy</a
+            <a class="text-white mb-2" href="?p=job_vacancy"
+              ><i class="fa fa-angle-right mr-2"></i>Job Vacancy</a
             >
           </div>
         </div>

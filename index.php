@@ -30,14 +30,14 @@
     include('pages/about.php');
     break;
   
-    case 'classes':
-    $title = "Our Classes";
-    include('pages/classes.php');
+    case 'academics':
+    $title = "Academics";
+    include('pages/academics.php');
     break;
   
-    case 'teachers':
-    $title = "Our Teachers";
-    include('pages/teachers.php');
+    case 'admission':
+    $title = "Admission";
+    include('pages/admission.php');
     break;
   
     case 'gallery':
@@ -53,6 +53,11 @@
     case 'notice':
     $title = "Notice Board";
     include('pages/notice.php');
+    break;
+  
+    case 'job_vacancy':
+    $title = "Job Vacancy";
+    include('pages/job_vacancy.php');
     break;
     
     default:

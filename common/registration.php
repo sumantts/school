@@ -45,7 +45,7 @@
                     <input
                       type="email"
                       class="form-control border-0 p-4"
-                      placeholder="Your Email"
+                      placeholder="Your Mobile Number"
                       required="required"
                     />
                   </div>

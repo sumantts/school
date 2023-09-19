@@ -14,7 +14,7 @@
           <p class="section-title px-5">
             <span class="px-2">Our Gallery</span>
           </p>
-          <h1 class="mb-4">Our Kids School Gallery</h1>
+          <!-- <h1 class="mb-4">Our Kids School Gallery</h1> -->
         </div>
         <div class="row">
           <div class="col-12 text-center mb-2">
