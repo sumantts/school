@@ -1,6 +1,6 @@
 
     <div class="container-fluid bg-primary mb-5">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px" >
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 200px" >
             <h3 class="display-3 font-weight-bold text-white"><?=$title?></h3>
             <div class="d-inline-flex text-white">
             <p class="m-0"><a class="text-white" href="?p=home">Home</a></p>

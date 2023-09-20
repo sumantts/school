@@ -1,9 +1,9 @@
 
     <div
-      class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
+      class="container-fluid bg-secondary text-white mt-5 py-2 px-sm-3 px-md-5"
     >
-      <div class="row pt-5">
-        <div class="col-lg-4 col-md-6 mb-5">
+      <div class="row pt-1">
+        <div class="col-lg-4 col-md-6 mb-2">
           <a
             href=""
             class="navbar-brand font-weight-bold text-primary m-0 mb-1 p-0"
@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-5">
+        <div class="col-lg-4 col-md-6 mb-2">
           <h3 class="text-primary mb-4">Get In Touch</h3>
           <div class="d-flex">
             <h4 class="fa fa-map-marker-alt text-primary"></h4>
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-5">
+        <div class="col-lg-4 col-md-6 mb-2">
           <h3 class="text-primary mb-4">Quick Links</h3>
           <div class="d-flex flex-column justify-content-start">
             <a class="text-white mb-2" href="?p=home"
@@ -124,7 +124,7 @@
         </div> -->
       </div>
       <div
-        class="container-fluid pt-5"
+        class="container-fluid pt-1"
         style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;"
       >
         <p class="m-0 text-center text-white">

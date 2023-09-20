@@ -33,7 +33,7 @@
             <a href="?p=gallery" class="nav-item nav-link <?php if($p == 'gallery'){?>active<?php } ?>">Gallery</a>
             <a href="?p=job_vacancy" class="nav-item nav-link <?php if($p == 'job_vacancy'){?>active<?php } ?>">Job Vacancy</a>
           </div>
-          <a href="javascript: void(0);" class="btn btn-primary px-4">Email Login</a>
+          <a href="https://webmail.atspschool.in/" target="_blank" class="btn btn-primary px-4">Email Login</a>
         </div>
       </nav>
     </div>
