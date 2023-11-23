@@ -13,9 +13,9 @@
           </a>
           <p>স্থাপিত: ২০২৩</p>
           <!-- <p>  A bengali medium school following West Bengal Board of Primary and Secondary Education curriculum </p> -->
-          <p>পশ্চিমবঙ্গ প্রাথমিক ও মধ্যশিক্ষা পর্ষদের পাঠক্রম অনুসৃত বাংলা মাধ্যম বিদ্যালয় </p>
+          <p>পশ্চিমবঙ্গ প্রাথমিক ও মধ্যশিক্ষা পর্ষদ কর্তৃক অনুমোদিত পাঠক্রম</p>
           <!-- <p>  An ideal Bengali medium co-educational residential and non-residential educational institution </p> -->
-          <p>একটি আদর্শ বাংলা মাধ্যম কো-এডুকেশনাল আবাসিক ও অনাবাসিক শিক্ষা প্রতিষ্ঠান </p>
+          <p>Organised by : A.T.S Educational Development and Welfare Society Govt. Regn. No. S0038353</p>
           <div class="d-flex justify-content-start mt-4">
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
@@ -58,7 +58,7 @@
             <h4 class="fa fa-envelope text-primary"></h4>
             <div class="pl-3">
               <h5 class="text-white">Email</h5>
-              <p>info@atspschool.in</p>
+              <p>secretary@atspschool.in</p>
             </div>
           </div>
           <div class="d-flex">
@@ -76,17 +76,20 @@
             <a class="text-white mb-2" href="?p=home"
               ><i class="fa fa-angle-right mr-2"></i>Home</a
             >
-            <a class="text-white mb-2" href="?p=academics"
-              ><i class="fa fa-angle-right mr-2"></i>Academics</a
+            <a class="text-white mb-2" href="?p=vision"
+              ><i class="fa fa-angle-right mr-2"></i>Vision</a
             >
             <a class="text-white mb-2" href="?p=admission"
               ><i class="fa fa-angle-right mr-2"></i>Admission</a
             >
-            <a class="text-white mb-2" href="?p=notice"
-              ><i class="fa fa-angle-right mr-2"></i>Notice Board</a
+            <a class="text-white mb-2" href="?p=facilities"
+              ><i class="fa fa-angle-right mr-2"></i>Facilities</a
             >
-            <a class="text-white mb-2" href="?p=gallery"
-              ><i class="fa fa-angle-right mr-2"></i>Gallery</a
+            <a class="text-white mb-2" href="?p=fees"
+              ><i class="fa fa-angle-right mr-2"></i>Fees</a
+            >
+            <a class="text-white mb-2" href="?p=rules"
+              ><i class="fa fa-angle-right mr-2"></i>Rules</a
             >
             <a class="text-white mb-2" href="?p=job_vacancy"
               ><i class="fa fa-angle-right mr-2"></i>Job Vacancy</a

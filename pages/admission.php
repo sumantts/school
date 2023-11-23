@@ -1,138 +1,44 @@
 
 
     <!-- Header Start -->
-    <?php include('common/mini_header.php'); ?>
+    <?php 
+    include('common/mini_header.php'); 
+    include('office/assets/php/noticeCtrl.php');
+    
+    ?>
     <!-- Header End -->
 
-    
-    
-    <div class="container-fluid pt-5">
+    <!-- Notice Start -->    
+    <div class="container-fluid py-5">
       <div class="container">
-        <div class="text-center pb-2">
-          <p class="section-title px-5">
-            <span class="px-2">Popular Classes</span>
-          </p>
-          <!-- <h1 class="mb-4">Classes for Your Kids</h1> -->
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mb-5">
-            <div class="card border-0 bg-light shadow-sm pb-2">
-              <!-- <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" /> -->
-              <div class="card-body text-center">
-                <h4 class="card-title">প্লে-গ্রুপ </h4>
-                <!-- <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                </p> -->
-              </div>
-              <div class="card-footer bg-transparent py-4 px-5">
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
-                  </div>
-                  <div class="col-6 py-1">2+ Years</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Total Seats</strong>
-                  </div>
-                  <div class="col-6 py-1">40 Seats</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Class Time</strong>
-                  </div>
-                  <div class="col-6 py-1">08:00 - 10:00</div>
-                </div>
-                <div class="row">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Tution Fee</strong>
-                  </div>
-                  <div class="col-6 py-1">&#8377;999 / Month</div>
-                </div>
-              </div>
-              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Apply Now</a>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-12 mb-5">    
+            <h1 class="mb-2"> ভর্তি সংক্রান্ত তথ্য</h1>
+            <p class="m-0 text-justify"  style="color: #00394f;">
+            ১) ফর্ম পাওয়া যাবে: (প্লে-গ্রুপ হইতে অষ্টম শ্রেণী) । তারিখ: ১লা অক্টোবর ২০২৩ (রবিবার) থেকে ৩১ শে অক্টোবর ২০২৩ (মঙ্গলবার), স্থান: স্কুলের নিজস্ব ক্যাম্পাস, সময়: সকাল ১০টা হইতে বৈকাল ৪টা পর্যন্ত <br><br>
+            ২) প্রসপেক্টাস  সহ ফর্মের মূল্য: ৫০ টাকা <br><br>
+            ৩) ফর্ম জমা দেওয়ার শেষ তারিখ: ৩১ অক্টোবর, ২০২৩ (মঙ্গলবার)<br><br>
+            ৪) ভর্তি পরীক্ষার তারিখ: ১২ই নভেম্বর, ২০২৩ (রবিবার) দুপুর ১২ টা স্থান: স্কুলের নিজস্ব ক্যাম্পাস <br><br>
+            ৫) পরীক্ষা হবে: লিখিত / মৌখিক <br><br>
+            ৬) পরীক্ষার ফলাফল জানা যাবে: ১৯শে নভেম্বর, ২০২৩ (রবিবার) সময়: ১১ টা থেকে <br><br>
+            ৭) ভর্তি প্রক্রিয়া আরম্ভ: ২৬ শে নভেম্বর, ২০২৩ (রবিবার) থেকে ৩১ শে ডিসেম্বর , ২০২৩ পর্যন্ত <br><br>
+            ৮) ক্লাস শুরু: ২রা জানুয়ারী, ২০২৪ (মঙ্গলবার) থেকে <br><br>
+            </p> 
           </div>
-          <div class="col-lg-4 mb-5">
-            <div class="card border-0 bg-light shadow-sm pb-2">
-              <!-- <img class="card-img-top mb-2" src="img/class-2.jpg" alt="" /> -->
-              <div class="card-body text-center">
-                <h4 class="card-title">কেজি</h4>
-                <!-- <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                </p> -->
-              </div>
-              <div class="card-footer bg-transparent py-4 px-5">
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
-                  </div>
-                  <div class="col-6 py-1">4+ Years</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Total Seats</strong>
-                  </div>
-                  <div class="col-6 py-1">40 Seats</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Class Time</strong>
-                  </div>
-                  <div class="col-6 py-1">08:00 - 12:00</div>
-                </div>
-                <div class="row">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Tution Fee</strong>
-                  </div>
-                  <div class="col-6 py-1">&#8377;1999 / Month</div>
-                </div>
-              </div>
-              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Apply Now</a>
-            </div>
+
+          <div class="col-lg-12" style="color: #00394f;">    
+            <h1 class="mb-2">ভর্তির সময় লাগবে </h1>
+            <p class="m-0 text-justify">
+            ১) জন্ম তারিখের প্রমাণ পত্রের জেরক্স <br><br>
+            ২) আধার কার্ডের জেরক্স <br><br>
+            ৩) ট্রান্সফার সার্টিফিকেট <br><br>
+            ৪) ৬ কপি রঙিন ছবি (পাসপোর্ট সাইজ)<br><br>
+            ৫) পিতা ও মাতার আধার কার্ডের জেরক্স <br><br>
+            </p> 
           </div>
-          <div class="col-lg-4 mb-5">
-            <div class="card border-0 bg-light shadow-sm pb-2">
-              <!-- <img class="card-img-top mb-2" src="img/class-3.jpg" alt="" /> -->
-              <div class="card-body text-center">
-                <h4 class="card-title">প্রথম শ্রেণী </h4>
-                <!-- <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                </p> -->
-              </div>
-              <div class="card-footer bg-transparent py-4 px-5">
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
-                  </div>
-                  <div class="col-6 py-1">6+ Years</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Total Seats</strong>
-                  </div>
-                  <div class="col-6 py-1">40 Seats</div>
-                </div>
-                <div class="row border-bottom">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Class Time</strong>
-                  </div>
-                  <div class="col-6 py-1">08:00 - 1:30</div>
-                </div>
-                <div class="row">
-                  <div class="col-6 py-1 text-right border-right">
-                    <strong>Tution Fee</strong>
-                  </div>
-                  <div class="col-6 py-1">&#8377;2999 / Month</div>
-                </div>
-              </div>
-              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Apply Now</a>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>
-    
+    <!-- Notice End -->

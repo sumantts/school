@@ -7857,6 +7857,11 @@ button.bg-dark:focus {
   padding-right: 3rem !important;
 }
 
+.pr-6,
+.px-6 {
+  padding-right: 6rem !important;
+}
+
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
@@ -7865,6 +7870,11 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 6rem !important;
 }
 
 .m-n1 {

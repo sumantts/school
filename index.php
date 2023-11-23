@@ -30,9 +30,9 @@
     include('pages/about.php');
     break;
   
-    case 'academics':
-    $title = "Academics";
-    include('pages/academics.php');
+    case 'vision':
+    $title = "Vision";
+    include('pages/vision.php');
     break;
   
     case 'admission':
@@ -40,24 +40,29 @@
     include('pages/admission.php');
     break;
   
-    case 'gallery':
-    $title = "Gallery";
-    include('pages/gallery.php');
+    case 'facilities':
+    $title = "Facilities";
+    include('pages/facilities.php');
     break;
   
-    case 'contact_us':
-    $title = "Contact Us";
-    include('pages/contact_us.php');
+    case 'fees':
+    $title = "Fees";
+    include('pages/fees.php');
     break;
   
-    case 'notice':
-    $title = "Notice Board";
-    include('pages/notice.php');
+    case 'rules':
+    $title = "Rules";
+    include('pages/rules.php');
     break;
   
     case 'job_vacancy':
     $title = "Job Vacancy";
     include('pages/job_vacancy.php');
+    break;
+  
+    case 'admission_result':
+    $title = "Admission Result";
+    include('pages/admission_result.php');
     break;
     
     default:

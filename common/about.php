@@ -1,3 +1,9 @@
+<style>
+li {
+  color: #00394f;
+}
+
+</style>
 
     <div class="container-fluid py-5">
       <div class="container">
@@ -11,9 +17,9 @@
             />
           </div>
           <div class="col-lg-7">
-            <p class="section-title pr-5">
+            <!-- <p class="section-title pr-5">
               <span class="pr-2">Learn About Us</span>
-            </p>
+            </p> -->
             <h2 class="mb-4">আপনার বাচ্চাদের জন্য সেরা স্কুল</h2>
             <!-- <p>
               Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
@@ -39,7 +45,7 @@
                 </ul>
               </div>
             </div>
-            <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
+            <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
           </div>
         </div>
       </div>

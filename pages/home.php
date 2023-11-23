@@ -15,7 +15,7 @@
     <!-- Class End -->
 
     <!-- Registration Start -->
-    <?php include('common/registration.php'); ?>
+    <?php //include('common/registration.php'); ?>
     <!-- Registration End -->
 
     <!-- Team Start -->
