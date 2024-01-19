@@ -40,7 +40,7 @@
 
     <div class="col-lg-6 mb-2 text-center text-lg-right">
     <a href="?p=admission_result"><h4 class="blink" style="font-size: 30px;"> ভর্তির ফলাফল</h4> </a>
-        </div>
+    </div>
     <!-- <div class="">
       <p class="first-slide">
         <span>&nbsp;&nbsp; ২০২৪ শিক্ষাবর্ষে প্লে -গ্রুপ (বয়স ২+) থেকে অষ্টম শ্রেণী পর্যন্ত ফর্ম দেওয়া ও ভর্তি নেওয়া চলছে  -&nbsp;</span>
